@@ -41,7 +41,7 @@
     font-size: var(--font-size-xxl);
     font-weight: var(--font-weight-bold);
 }
-
+    
 .footer-container h3 {
     font-size: var(--font-size-l);
     font-weight: var(--font-weight-medium);
@@ -84,7 +84,7 @@
 
 .footer-main section {
     width: auto;
-    max-width: 320px;
+    max-width: 25em;
 }
 
 .footer-main .footer-navigation{

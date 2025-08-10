@@ -11,10 +11,9 @@ const Footer = () => {
             <article className="footer-container">
                 <section className="footer-main">
                     <section className="logo-section">
-                        <h1> MyCourier </h1>
+                        <h1> Boosta Sauce Logistics </h1>
                         <p> 
-                            From city centers to rural towns, we deliver with 
-                            care and consistency across the entire province.
+                            You can never stop with one.
                         </p>
                     </section>
                     
@@ -40,11 +39,11 @@ const Footer = () => {
                         <ul>
                             <li className="contact-item">
                                 <img src={phoneIcon} alt="Icon of phone" className="footer-icon" />
-                                <p> (123) 456789000 </p>
+                                <p> (+27) 676953702 </p>
                             </li>
                             <li className="contact-item">
                                 <img src={emailIcon} alt="Icon of email" className="footer-icon" />
-                                <p> info@mycourier.co.za </p>
+                                <p> boostasauce@outlook.com </p>
                             </li>
                         </ul>
                     </section>
@@ -54,7 +53,7 @@ const Footer = () => {
                         <ul>
                             <li className="contact-item">
                                 <img src={whatsappIcon} alt="Icon of WhatsApp logo" className="footer-icon" />
-                                <a href=" https://wa.me/+27842477951" className="social-media-link">WhatsApp</a> 
+                                <a href=" https://wa.me/+27676953702" className="social-media-link">WhatsApp</a> 
                             </li>
                         </ul>
                     </section>
