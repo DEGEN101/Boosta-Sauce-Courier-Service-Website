@@ -1,0 +1,32 @@
+.homepage-body-container {
+    margin-block: var(--margin-xxl);
+    
+    display: flex;
+    flex-direction: column;
+
+    row-gap: var(--margin-xxl);
+}
+
+.homepage-body-container .services-card-section {
+    margin-inline: var(--margin-m);
+
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: first baseline;
+
+    row-gap: var(--margin-m);
+    column-gap: var(--margin-m);
+}
+
+@media (max-width: 60em) {
+    .homepage-body-container .services-card-section {
+        row-gap: var(--margin-m);
+    }
+}
+
+@media (max-width: 40em) {
+    .homepage-body-container .services-card-section {
+        row-gap: var(--margin-m);
+    }
+}
