@@ -60,6 +60,10 @@ const Header2 = () => {
                 </nav>
 
             </div>
+
+            <div className="circle-1" data-visible={toggleMobileNavigation}> </div>
+            <div className="circle-2" data-visible={toggleMobileNavigation}> </div>
+            <div className="circle-3" data-visible={toggleMobileNavigation}> </div>
         </section>
     );
 };
