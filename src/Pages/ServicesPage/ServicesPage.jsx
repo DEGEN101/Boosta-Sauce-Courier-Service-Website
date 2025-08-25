@@ -1,6 +1,7 @@
 import React from "react";
 
 import Header2 from "../../Components/Header2/Header2";
+import PageTitle from "../../Components/PageTitle/PageTitle";
 import ServicesCard from "../../Components/ServicesCard/ServicesCard";
 import Footer from "../../Components/Footer/Footer";
 
@@ -13,7 +14,9 @@ const ServicesPage = () => {
     return (
         <>  
             <Header2 />
-            <h1> Our Services </h1>
+            <section className="title-section">
+                <PageTitle title={"Our Services"}/>
+            </section>
 
             <section className="body-container">
                 <section className="services-card-section">

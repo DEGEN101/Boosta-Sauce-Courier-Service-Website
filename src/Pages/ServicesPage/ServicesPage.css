@@ -1,3 +1,11 @@
+
+.title-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
 .body-container {
     margin-block: var(--margin-xxl);
     display: flex;

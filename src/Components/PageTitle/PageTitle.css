@@ -1,0 +1,25 @@
+.page-title-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: var(--margin-m);
+}
+
+.page-title-container .left-circle {
+    width: var(--margin-s);
+    height: var(--margin-s);
+    background-color: var(--primary-colour);
+    border-radius: 50%; /* This creates the circle */
+}
+
+.page-title-container h1 {
+    font-weight: var(--font-weight-medium);
+}
+
+.page-title-container .right-circle {
+    width: var(--margin-xs);
+    height: var(--margin-xs);
+    background-color: var(--primary-colour);
+    border-radius: 50%; /* This creates the circle */
+}
