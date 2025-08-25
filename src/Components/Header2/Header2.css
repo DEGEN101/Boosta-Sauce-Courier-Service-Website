@@ -2,14 +2,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     background-color: var(--background-colour-light);
     position: relative;
 }
 
 /* Logo stays left */
 .header2-container .logo-section {
+    display: flex;
+    align-items: flex-start;
     padding: 1rem 2rem;
+}
+
+.header2-container .logo-section img {
+    width: calc(var(--margin-xxl) * 5);
 }
 
 /* SVG container on the right */

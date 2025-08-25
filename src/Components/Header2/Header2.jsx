@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import burgerIcon from "../../Assets/Header svgs/burger-menu-svgrepo-com.svg";
 import closeIcon from "../../Assets/Header svgs/close-svgrepo-com.svg";
+import boostaSauceLogo from "../../Assets/Logo/boosta_sauce_logo_cropped.svg";
 
 import "./Header2.css";
 
@@ -15,7 +16,7 @@ const Header2 = () => {
     return (
         <section className="header2-container">
             <section className="logo-section">
-                <h1>Boosta</h1>
+                <img src={boostaSauceLogo} alt="Boosta Sauce Logo"/>
             </section>
 
             <button 
