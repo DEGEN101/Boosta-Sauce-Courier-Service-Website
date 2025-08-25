@@ -1,4 +1,6 @@
+import React from "react";
 
+import Header2 from "../../Components/Header2/Header2";
 import ServicesCard from "../../Components/ServicesCard/ServicesCard";
 import Footer from "../../Components/Footer/Footer";
 
@@ -9,7 +11,8 @@ import "./ServicesPage.css";
 
 const ServicesPage = () => {
     return (
-        <>
+        <>  
+            <Header2 />
             <h1> Our Services </h1>
 
             <section className="body-container">
