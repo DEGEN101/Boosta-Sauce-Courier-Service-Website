@@ -77,18 +77,18 @@
 
 .header2-container .circle-1 {
     position: absolute;
-    left: 53%;
-    top: 45%;
+    left: 56%;
+    top: 50%;
 
-    width: var(--margin-xl);
-    height: var(--margin-xl);
+    width: var(--margin-l);
+    height: var(--margin-l);
     background-image: linear-gradient(to right, var(--secondary-colour), var(--primary-colour));
     border-radius: 50%;
 }
 
 .header2-container .circle-2 {
     position: absolute;
-    left: 49%;
+    left: 52%;
     top: 70%;
 
     width: var(--margin-m);
@@ -99,11 +99,11 @@
 
 .header2-container .circle-3 {
     position: absolute;
-    left: 45%;
+    left: 48%;
     top: 100%;
 
-    width: calc(var(--margin-xl) * 1.8);
-    height: calc(var(--margin-xl) * 1.8);
+    width: calc(var(--margin-xl) * 1.6);
+    height: calc(var(--margin-xl) * 1.6);
     background-image: linear-gradient(to right, var(--secondary-colour), var(--primary-colour));
     border-radius: 50%;
 }

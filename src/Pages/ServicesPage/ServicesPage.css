@@ -1,5 +1,7 @@
 
 .title-section {
+    margin-block: calc(var(--margin-xxl) * 2) var(--margin-xxl);
+
     display: flex;
     flex-direction: row;
     justify-content: center;

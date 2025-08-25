@@ -15,6 +15,13 @@
 
 .page-title-container h1 {
     font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-xxxl);
+}
+
+@media (max-width: 40em) {
+    .page-title-container h1 {
+        font-size: var(--font-size-xxl);
+    }
 }
 
 .page-title-container .right-circle {
