@@ -2,14 +2,20 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     background-color: var(--background-colour-light);
     position: relative;
 }
 
 /* Logo stays left */
 .header2-container .logo-section {
+    display: flex;
+    align-items: flex-start;
     padding: 1rem 2rem;
+}
+
+.header2-container .logo-section img {
+    width: calc(var(--margin-xxl) * 5);
 }
 
 /* SVG container on the right */
@@ -69,6 +75,39 @@
     display: none;
 }
 
+.header2-container .circle-1 {
+    position: absolute;
+    left: 53%;
+    top: 45%;
+
+    width: var(--margin-xl);
+    height: var(--margin-xl);
+    background-image: linear-gradient(to right, var(--secondary-colour), var(--primary-colour));
+    border-radius: 50%;
+}
+
+.header2-container .circle-2 {
+    position: absolute;
+    left: 49%;
+    top: 70%;
+
+    width: var(--margin-m);
+    height: var(--margin-m);
+    background-image: linear-gradient(to right, var(--secondary-colour), var(--primary-colour));
+    border-radius: 50%;
+}
+
+.header2-container .circle-3 {
+    position: absolute;
+    left: 45%;
+    top: 100%;
+
+    width: calc(var(--margin-xl) * 1.8);
+    height: calc(var(--margin-xl) * 1.8);
+    background-image: linear-gradient(to right, var(--secondary-colour), var(--primary-colour));
+    border-radius: 50%;
+}
+
 @media (max-width: 40em) {
     /* Mobile navigation as slide-in drawer */
     .header2-container .header2-navigation {
@@ -118,5 +157,11 @@
     .header2-container  .mobile-toggle-nav img {
         width: 100%;
         min-width: var(--margin-xl);
+    }
+
+    .header2-container .circle-1,
+    .header2-container .circle-2,
+    .header2-container .circle-3 {
+        display: none;
     }
 }
