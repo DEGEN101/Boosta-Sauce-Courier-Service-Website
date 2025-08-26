@@ -19,14 +19,198 @@
     column-gap: var(--margin-m);
 }
 
+.homepage-body-container .services-section {
+    display: flex;
+    flex-direction: column;
+
+    gap: var(--margin-xxl);
+}
+
 @media (max-width: 60em) {
     .homepage-body-container .services-card-section {
-        row-gap: var(--margin-m);
+        row-gap: var(--margin-xl);
+    }
+
+    .homepage-body-container .services-section {
+        gap: var(--margin-xl);
     }
 }
 
 @media (max-width: 40em) {
     .homepage-body-container .services-card-section {
-        row-gap: var(--margin-m);
+        row-gap: var(--margin-xl);
+    }
+
+    .homepage-body-container .services-section {
+        gap: var(--margin-xl);
+    }
+}
+
+.homepage-body-container .sub-section {
+    margin-inline: var(--margin-xxl);
+    margin-block: var(--margin-xxl);
+
+    display: flex;
+    flex-flow: row wrap;
+
+    gap: var(--margin-xxl);
+}
+
+.homepage-body-container .sub-section.reverse {
+    margin-inline: var(--margin-xxl);
+    margin-block: var(--margin-xxl);
+
+    display: flex;
+    flex-flow: row-reverse wrap;
+
+    gap: var(--margin-xxl);
+}
+
+.homepage-body-container .sub-section .img-section {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: var(--margin-m);
+}
+
+.sub-section .img-section img {
+    width: 45vw;
+
+    min-width: 320px;
+}
+
+.sub-section .img-section .gradient-line {
+    width: 90%;
+    height: var(--margin-m);
+
+    background-image: linear-gradient(to right, var(--primary-colour), var(--secondary-colour));
+    border-radius: var(--margin-s);
+}
+
+.homepage-body-container .sub-section .information-section {
+    margin-inline: var(--margin-l);
+
+    min-width: 320px;
+    max-width: 40vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    gap: var(--margin-xl);
+}
+
+.homepage-body-container .sub-section.reverse .information-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+
+    gap: var(--margin-xl);
+}
+
+
+.homepage-body-container .sub-section .information-section p {
+    color: var(--text-colour-gray);
+    text-align: right;
+}
+
+.homepage-body-container .sub-section.reverse .information-section p {
+    color: var(--text-colour-gray);
+    text-align: left;
+}
+
+
+@media (max-width: 65em) {
+    .homepage-body-container .sub-section {
+        margin-inline: var(--margin-xxl);
+        margin-block: var(--margin-xxl);
+
+        display: flex;
+        justify-content: center;
+
+        gap: var(--margin-xxl);
+    }
+
+    .homepage-body-container .sub-section.reverse {
+        margin-inline: var(--margin-xxl);
+        margin-block: var(--margin-xxl);
+
+        display: flex;
+        flex-direction: row-reverse;
+
+        gap: var(--margin-xxl);
+    }
+
+    .sub-section .img-section .gradient-line {
+        width: 90%;
+        height: var(--margin-s);
+
+        background-image: linear-gradient(to right, var(--primary-colour), var(--secondary-colour));
+        border-radius: var(--margin-s);
+    }
+
+    .homepage-body-container .sub-section .information-section {
+        margin-inline: var(--margin-xl);
+        
+        max-width: 80vw;
+        min-width: 320px;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+
+        gap: var(--margin-xxl);
+    }
+
+    .homepage-body-container .sub-section .information-section p {
+        color: var(--text-colour-gray);
+        text-align: left;
+    }
+}
+
+
+@media (max-width: 40em) {
+    .homepage-body-container .sub-section {
+        margin-inline: var(--margin-xxl);
+        margin-block: var(--margin-xxl);
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        gap: var(--margin-xxl);
+    }
+
+    .homepage-body-container .sub-section.reverse {
+        margin-inline: var(--margin-xs);
+        margin-block: var(--margin-m);
+
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+
+        gap: var(--margin-xxl);
+    }
+
+    .homepage-body-container .sub-section .information-section {
+        margin-inline: 0;
+
+        align-items: center;
+    }
+
+    .homepage-body-container .sub-section.reverse .information-section {
+
+        align-items: center;
+    }
+
+    .homepage-body-container .sub-section .information-section p {
+        color: var(--text-colour-gray);
+        text-align: left;
     }
 }

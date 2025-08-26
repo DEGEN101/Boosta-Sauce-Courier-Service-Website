@@ -6,7 +6,7 @@
     justify-content: center;
     align-items: center;
 
-    background-image: linear-gradient(to right, var(--secondary-colour), var(--primary-colour));
+    background-image: linear-gradient(to right, var(--primary-colour), var(--secondary-colour));
     border-radius: var(--margin-s);
 
     cursor: pointer;

@@ -1,0 +1,32 @@
+.subtitle-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    gap: var(--margin-m);
+}
+
+.subtitle-container .left-circle {
+    width: var(--margin-s);
+    height: var(--margin-s);
+    background-color: var(--primary-colour);
+    border-radius: 50%; /* This creates the circle */
+}
+
+.subtitle-container h1 {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-xxxl);
+}
+
+@media (max-width: 40em) {
+    .subtitle-container h1 {
+        font-size: var(--font-size-xxl);
+    }
+}
+
+.subtitle-container .right-circle {
+    width: var(--margin-xs);
+    height: var(--margin-xs);
+    background-color: var(--primary-colour);
+    border-radius: 50%; /* This creates the circle */
+}
