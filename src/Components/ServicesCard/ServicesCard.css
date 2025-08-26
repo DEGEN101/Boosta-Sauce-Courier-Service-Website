@@ -1,0 +1,57 @@
+
+.services-card-container {
+    max-width: 25em;
+    min-width: 20em;
+    height: 15em;
+
+    padding-block: calc(var(--margin-xxl) * 3);
+    padding-inline: calc(var(--margin-xxl) * 1.5);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: var(--margin-m);
+
+    border-radius: var(--margin-xl);
+    box-shadow: 0 calc(var(--margin-xs) / 4) calc(var(--margin-xs) / 4) calc(var(--margin-xs) / 4) rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 60em) {
+    .services-card-container {
+        max-width: 20em;
+        height: 15em;
+
+        padding-block: var(--margin-xxl);
+        padding-inline: var(--margin-xxl);
+
+        gap: var(--margin-s);
+    }
+}
+
+@media (max-width: 40em) {
+    .services-card-container {
+        max-width: 20em;
+        height: 15em;
+
+        padding-block: var(--margin-xxl);
+        padding-inline: var(--margin-xxl);
+
+        gap: var(--margin-s);
+    }
+}
+
+.services-card-container .services-card-icon {
+    max-width: calc(var(--margin-xxl) * 1.5);
+}
+
+.services-card-container .services-card-title {
+    font-size: var(--font-size-xl);
+    font-weight: var(--font-weight-medium);
+}
+
+
+.services-card-container .services-card-message {
+    text-align: center;
+    color: var(--text-colour-gray);
+}
