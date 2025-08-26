@@ -1,0 +1,40 @@
+/* Contact page hero section */
+.contact-hero {
+  padding: 40px 16px;       /* space inside the hero section */
+  background: #fff;         /* can be changed to your theme color if needed */
+  text-align: center;       /* center the title & subtitle */
+}
+
+/* Title and subtitle spacing */
+.contact-title {
+  font-size: clamp(24px, 3vw, 28px);
+  font-weight: 700;
+  color: #1f2a44;
+  margin-bottom: 6px;
+}
+
+.contact-subtitle {
+  font-size: 14px;
+  color: #7a8699;
+  margin-bottom: 30px;
+}
+
+/* Contact form container */
+.contact-form {
+  margin: 0 auto;           /* center horizontally */
+  max-width: 600px;         /* controls how wide the form area can go */
+  padding: 20px;            /* space inside the section */
+  
+  /* optional: add background & rounded corners if you want */
+  /* background: #f9faff; */
+  /* border-radius: 8px; */
+}
+
+/* Add more breathing room on larger screens */
+@media (min-width: 768px) {
+  .contact-form {
+    margin-top: 40px;
+    margin-bottom: 60px;
+    padding: 40px;
+  }
+}
