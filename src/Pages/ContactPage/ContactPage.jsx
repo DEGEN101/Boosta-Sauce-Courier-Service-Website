@@ -9,11 +9,11 @@ const ContactPage = () => {
  return (
         <>  
             <Header2 />
-            <section className="title-section">
-              <PageTitle title={"Contact Us"}/>
-            </section>
             <section className="contact-hero">
-              <h1 className="contact-title">Contact Us</h1>
+              <section className="title-section">
+                <PageTitle title={"Contact Us"}/>
+              </section>
+              
               <p className="contact-subtitle">
                 Request a quote by filling out the form below
               </p>
