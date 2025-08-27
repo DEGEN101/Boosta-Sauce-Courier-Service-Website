@@ -43,7 +43,7 @@ const Homepage = () => {
                         <div className="gradient-line"></div>
                     </div>
                     <div className="information-section">
-                        <Subtitle2 title={"We Deliver Very Carefully"}/>
+                        <Subtitle2 title={"Handled with Care"} reverse={true}/>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, id porttitor maecenas 
                             amet. Mattis quisque facilisi duis tellus lacus vitae. Malesuada nibh libero eget elementum 
@@ -75,7 +75,7 @@ const Homepage = () => {
                         <img src={saBoxesImage} alt="Boxes on SA"/>
                     </div>
                     <div className="information-section">
-                        <Subtitle2 title={"Our Network Serves Nationally"}/>
+                        <Subtitle2 title={"Nationwide Coverage"}/>
                         <p>
                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, id porttitor maecenas 
                             amet. Mattis quisque facilisi duis tellus lacus vitae. Malesuada nibh libero eget elementum 

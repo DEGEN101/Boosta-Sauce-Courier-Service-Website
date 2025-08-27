@@ -11,7 +11,7 @@ import boostaSauceLogo from "../../Assets/Logo/boosta_sauce_logo_cropped.svg";
 
 import "./HomepageHeader.css";
 
-const HomepageHeader = () => {
+const HomepageHeader = ({ reverse = false }) => {
     const navigate = useNavigate();
     const [toggleMobileNavigation, setToggleMobileNavigation] = useState(false);
 
@@ -24,7 +24,7 @@ const HomepageHeader = () => {
     };
 
     return (
-        <section className="header-container">
+        <section className={"header-container"}>
             {/* Left Section */}
             <section className="left-sub-section">
                 <section className="logo-section">
@@ -38,7 +38,7 @@ const HomepageHeader = () => {
                     </p>
                 </section>
                 <section className="contact-us-section">
-                    <Button title={"Contact Us"} onClick={handleContactUsButtonClick} />
+                    <Button title="Contact Us" onClick={handleContactUsButtonClick} />
                 </section>
             </section>
 
@@ -49,23 +49,6 @@ const HomepageHeader = () => {
                 <div className="circle circle-3"></div>
             </section>
 
-            {/* Right Section - Desktop images */}
-            <section className="right-sub-section">
-                <div className="header-image-wrapper">
-                    <img src={homepageHeaderImage} alt="Homepage Header" className="header-bg" />
-                    <img src={deliveryManImage} alt="Delivery Man" className="delivery-man" />
-                </div>
-
-                {/* Desktop navigation */}
-                <nav>
-                    <ul id="header-navigation" className="header-navigation">
-                        <li><a href="#/home" className="navigation-link">Home</a></li>
-                        <li><a href="#/services" className="navigation-link">Services</a></li>
-                        <li><a href="#/contact" className="navigation-link">Contact Us</a></li>
-                    </ul>
-                </nav>
-            </section>
-
             {/* Mobile toggle button */}
             <button 
                 onClick={onMobileNavigationButtonClick}
@@ -73,17 +56,36 @@ const HomepageHeader = () => {
                 className="mobile-toggle-nav"
                 aria-expanded={toggleMobileNavigation}
             >
-                <img src={toggleMobileNavigation ? closeIcon : burgerIcon} alt="toggle mobile navigation icon"/>
+                <img 
+                    src={toggleMobileNavigation ? closeIcon : burgerIcon} 
+                    alt="toggle mobile navigation icon"
+                />
             </button>
 
-            {/* Mobile slide-in navigation */}
-            <nav className="mobile-nav" data-visible={toggleMobileNavigation}>
-                <ul>
-                    <li><a href="#/home" className="navigation-link">Home</a></li>
-                    <li><a href="#/services" className="navigation-link">Services</a></li>
-                    <li><a href="#/contact" className="navigation-link">Contact Us</a></li>
-                </ul>
-            </nav>
+            {/* Right Section - Desktop images */}
+            <section className="right-sub-section">
+                <div className="header-image-wrapper">
+                    <img 
+                        src={homepageHeaderImage} 
+                        alt="Homepage Header" 
+                        className="header-bg" 
+                    />
+                    <img 
+                        src={deliveryManImage} 
+                        alt="Delivery Man" 
+                        className="delivery-man" 
+                    />
+                </div>
+
+                {/* Desktop navigation */}
+                <nav>
+                    <ul id="header-navigation" className="header-navigation" data-visible={toggleMobileNavigation}>
+                        <li><a href="#/home" className="navigation-link">Home</a></li>
+                        <li><a href="#/services" className="navigation-link">Services</a></li>
+                        <li><a href="#/contact" className="navigation-link">Contact Us</a></li>
+                    </ul>
+                </nav>
+            </section>
         </section>
     );
 };

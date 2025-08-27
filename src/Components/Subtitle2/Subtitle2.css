@@ -2,15 +2,45 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
+    align-items: center;
 
-    gap: var(--margin-m);
+    gap: var(--margin-l);
 }
 
-.subtitle2-container .left-circle {
-    width: var(--margin-s);
-    height: var(--margin-s);
+.subtitle2-container.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+    gap: var(--margin-l);
+}
+
+.subtitle2-container .double-circles {
+    width: 5em;
+    height: 8em;
+
+    position: relative;
+}
+
+.subtitle2-container .double-circles .top-circle,  
+.subtitle2-container .double-circles .bottom-circle {
     background-color: var(--primary-colour);
     border-radius: 50%; /* This creates the circle */
+}
+
+.subtitle2-container .double-circles .top-circle {
+    transform: translateX(4.5em);
+
+    width: var(--margin-m);
+    height: var(--margin-m);
+}
+
+.subtitle2-container .double-circles .bottom-circle {
+    transform: translateX(2.5em) translateY(3em);
+
+    width: var(--margin-xs);
+    height: var(--margin-xs);
 }
 
 .subtitle2-container h1 {
@@ -22,11 +52,19 @@
     .subtitle2-container h1 {
         font-size: var(--font-size-xxl);
     }
-}
 
-.subtitle-container2 .right-circle {
-    width: var(--margin-xs);
-    height: var(--margin-xs);
-    background-color: var(--primary-colour);
-    border-radius: 50%; /* This creates the circle */
+    .subtitle2-container .double-circles {
+        width: 4em;
+        height: 5em;
+
+        position: relative;
+    }
+
+    .subtitle2-container .double-circles .top-circle {
+        transform: translateX(3em);
+    }
+
+    .subtitle2-container .double-circles .bottom-circle {
+        transform: translateX(1em) translateY(3em);
+    }
 }
