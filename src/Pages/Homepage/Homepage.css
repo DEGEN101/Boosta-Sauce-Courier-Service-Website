@@ -83,7 +83,7 @@
 }
 
 .sub-section .img-section .gradient-line {
-    width: 90%;
+    width: 100%;
     height: var(--margin-m);
 
     background-image: linear-gradient(to right, var(--primary-colour), var(--secondary-colour));

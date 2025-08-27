@@ -8,7 +8,7 @@ import Footer from "../../Components/Footer/Footer";
 import deliveryTruckIcon from "../../Assets/Icons/delivery-truck-svgrepo-com.svg";
 import clockIcon from "../../Assets/Icons/clock-svgrepo-com.svg";
 import suzukiEcco12VImage from "../../Assets/Images/suzuki-ecco-1.2v-side-profile.png";
-import courierExchangeMomentImage from "../../Assets/Images/courier-exchange-moment.svg";
+import courierExchangeMomentImage from "../../Assets/Images/courier-exchange-moment.png";
 import saBoxesImage from "../../Assets/Images/sa-boxes.svg";
 
 import "./Homepage.css"

@@ -14,7 +14,13 @@
 
     gap: var(--margin-xl);
 
-    background-image: linear-gradient(to right, var(--secondary-colour), var(--primary-colour));
+    background-image: linear-gradient(
+        to right,
+        var(--secondary-colour) 0%,
+        var(--secondary-colour) 30%,
+        var(--primary-colour) 70%,
+        var(--primary-colour) 100%
+    );
 
     color: var(--text-colour-light);
 }
@@ -23,7 +29,13 @@
     .footer-container {
         gap: var(--margin-xxl);
 
-        background-image: linear-gradient(to bottom, var(--secondary-colour), var(--primary-colour));
+        background-image: linear-gradient(
+            to bottom,
+            var(--secondary-colour) 0%,
+            var(--secondary-colour) 30%,
+            var(--primary-colour) 70%,
+            var(--primary-colour) 100%
+        );
     }
 }
 
@@ -31,7 +43,13 @@
     .footer-container {
         gap: var(--margin-xxl);
 
-        background-image: linear-gradient(to bottom, var(--secondary-colour), var(--primary-colour));
+    background-image: linear-gradient(
+        to bottom,
+        var(--secondary-colour) 0%,
+        var(--secondary-colour) 30%,
+        var(--primary-colour) 70%,
+        var(--primary-colour) 100%
+    );
     }
 }
 
