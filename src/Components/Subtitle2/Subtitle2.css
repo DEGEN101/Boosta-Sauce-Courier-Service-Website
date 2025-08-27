@@ -1,0 +1,70 @@
+.subtitle2-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+    gap: var(--margin-l);
+}
+
+.subtitle2-container.reverse {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+
+    gap: var(--margin-l);
+}
+
+.subtitle2-container .double-circles {
+    width: 5em;
+    height: 8em;
+
+    position: relative;
+}
+
+.subtitle2-container .double-circles .top-circle,  
+.subtitle2-container .double-circles .bottom-circle {
+    background-color: var(--primary-colour);
+    border-radius: 50%; /* This creates the circle */
+}
+
+.subtitle2-container .double-circles .top-circle {
+    transform: translateX(4.5em);
+
+    width: var(--margin-m);
+    height: var(--margin-m);
+}
+
+.subtitle2-container .double-circles .bottom-circle {
+    transform: translateX(2.5em) translateY(3em);
+
+    width: var(--margin-xs);
+    height: var(--margin-xs);
+}
+
+.subtitle2-container h1 {
+    font-weight: var(--font-weight-medium);
+    font-size: var(--font-size-xxxl);
+}
+
+@media (max-width: 40em) {
+    .subtitle2-container h1 {
+        font-size: var(--font-size-xxl);
+    }
+
+    .subtitle2-container .double-circles {
+        width: 4em;
+        height: 5em;
+
+        position: relative;
+    }
+
+    .subtitle2-container .double-circles .top-circle {
+        transform: translateX(3em);
+    }
+
+    .subtitle2-container .double-circles .bottom-circle {
+        transform: translateX(1em) translateY(3em);
+    }
+}
