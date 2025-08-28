@@ -1,9 +1,14 @@
 <svg width="857" height="911" viewBox="0 0 857 911" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M624.292 828.936C702.521 962.474 794.24 905.656 860 849.676L860 6.10352e-05L155.945 2.76192e-05L-8.53962e-05 8.12529e-05C407.503 130.776 12.2931 324.872 44.8721 516.455C72.4821 678.817 200.784 556.474 325.297 790.925C449.809 1025.38 490.844 628.351 624.292 828.936Z" fill="url(#paint0_linear_9_26)"/>
-<defs>
-<linearGradient id="paint0_linear_9_26" x1="860" y1="455.5" x2="14.8239" y2="451.254" gradientUnits="userSpaceOnUse">
-<stop stop-color="#0064D9"/>
-<stop offset="1" stop-color="#7D83FF"/>
-</linearGradient>
-</defs>
+  <path d="M624.292 828.936C702.521 962.474 794.24 905.656 860 849.676L860 6.10352e-05L155.945 2.76192e-05L-8.53962e-05 8.12529e-05C407.503 130.776 12.2931 324.872 44.8721 516.455C72.4821 678.817 200.784 556.474 325.297 790.925C449.809 1025.38 490.844 628.351 624.292 828.936Z" fill="url(#paint0_linear_9_26)"/>
+  <defs>
+    <linearGradient id="paint0_linear_9_26" x1="860" y1="455.5" x2="14.8239" y2="451.254" gradientUnits="userSpaceOnUse">
+      <!-- Dark start -->
+      <stop offset="0" stop-color="#22262B"/>
+      <!-- Subtle midpoint blending -->
+      <stop offset="0.35" stop-color="#2B2F33"/>
+      <stop offset="0.65" stop-color="#363839"/>
+      <!-- Light end -->
+      <stop offset="1" stop-color="#3F4142"/>
+    </linearGradient>
+  </defs>
 </svg>

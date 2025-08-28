@@ -5,13 +5,13 @@ import Button from "../Button/Button.jsx";
 
 import burgerIcon from "../../Assets/Header svgs/burger-menu-svgrepo-com.svg";
 import closeIcon from "../../Assets/Header svgs/close-svgrepo-com.svg";
-import deliveryManImage from "../../Assets/Images/delivery-man.svg";
+import deliveryManImage from "../../Assets/Images/delivery-man.png";
 import homepageHeaderImage from "../../Assets/Header svgs/header-1.svg";
 import boostaSauceLogo from "../../Assets/Logo/boosta_sauce_logo_cropped.svg";
 
 import "./HomepageHeader.css";
 
-const HomepageHeader = ({ reverse = false }) => {
+const HomepageHeader = () => {
     const navigate = useNavigate();
     const [toggleMobileNavigation, setToggleMobileNavigation] = useState(false);
 
