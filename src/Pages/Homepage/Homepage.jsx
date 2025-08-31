@@ -43,7 +43,8 @@ const Homepage = () => {
                     <div className="information-section">
                         <Subtitle2 title={"Handled with Care"} reverse={true}/>
                         <p>
-                           
+                            Every delivery matters. At Boosta Sauce, we treat your parcels with the same care and attention that you would. From the moment we collect your package to the moment it reaches its destination, we make sure it is secure, protected and delivered exactly as expected.
+                            Whether it is a fragile item, valuable documents or everyday essentials, you can trust us to handle it with care and deliver it with pride across Gauteng.
                         </p>
                     </div>
                 </section>
