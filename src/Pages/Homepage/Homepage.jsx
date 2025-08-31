@@ -28,11 +28,9 @@ const Homepage = () => {
                     <div className="information-section">
                         <Subtitle2 title={"Who We Are"}/>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, id porttitor maecenas 
-                            amet. Mattis quisque facilisi duis tellus lacus vitae. Malesuada nibh libero eget elementum 
-                            in nec. Lorem auctor amet tristique est porttitor integer at. Risus massa id consectetur diam. 
-                            Commodo nec, in tellus faucibus ornare elit bibendum risus lacinia. Ultrices porttitor sem 
-                            ultricies amet. 
+                            At Boosta Sauce, we are all about speed, reliability and that extra boost of convenience. Our priority is simple: making sure your deliveries get to where they need to be quickly, safely and without any hassle.
+
+                            We began with a simple idea. Deliveries should not be stressful. Whether it is an urgent parcel, important business documents or everyday items, you deserve a service that is dependable, transparent and run by people who care.
                         </p>
                     </div>
                 </section>
@@ -45,11 +43,8 @@ const Homepage = () => {
                     <div className="information-section">
                         <Subtitle2 title={"Handled with Care"} reverse={true}/>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, id porttitor maecenas 
-                            amet. Mattis quisque facilisi duis tellus lacus vitae. Malesuada nibh libero eget elementum 
-                            in nec. Lorem auctor amet tristique est porttitor integer at. Risus massa id consectetur diam. 
-                            Commodo nec, in tellus faucibus ornare elit bibendum risus lacinia. Ultrices porttitor sem 
-                            ultricies amet. 
+                            Every delivery matters. At Boosta Sauce, we treat your parcels with the same care and attention that you would. From the moment we collect your package to the moment it reaches its destination, we make sure it is secure, protected and delivered exactly as expected.
+                            Whether it is a fragile item, valuable documents or everyday essentials, you can trust us to handle it with care and deliver it with pride across Gauteng.
                         </p>
                     </div>
                 </section>
@@ -75,13 +70,13 @@ const Homepage = () => {
                         <img src={saBoxesImage} alt="Boxes on SA"/>
                     </div>
                     <div className="information-section">
-                        <Subtitle2 title={"Nationwide Coverage"}/>
+                        <Subtitle2 title={"Provincial Coverage"}/>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, id porttitor maecenas 
-                            amet. Mattis quisque facilisi duis tellus lacus vitae. Malesuada nibh libero eget elementum 
-                            in nec. Lorem auctor amet tristique est porttitor integer at. Risus massa id consectetur diam. 
-                            Commodo nec, in tellus faucibus ornare elit bibendum risus lacinia. Ultrices porttitor sem 
-                            ultricies amet. 
+                            Our strength lies in knowing Gauteng inside and out. From Johannesburg to Pretoria and everywhere in between, Boosta Sauce is built to move your deliveries quickly and reliably across the province.
+
+                            We understand the traffic, the routes and the pace of Gauteng life. That local knowledge allows us to provide faster turnarounds and a service you can count on, no matter where in the province you need your package to go.
+
+                            With Boosta Sauce, your deliveries stay close to home — handled by a team that knows Gauteng best. 
                         </p>
                     </div>
                 </section>

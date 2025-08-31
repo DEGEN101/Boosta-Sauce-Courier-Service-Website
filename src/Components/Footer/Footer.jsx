@@ -60,7 +60,7 @@ const Footer = () => {
                 </section>
 
                 <section className="copyright-section">
-                    <p> &copy; 2024 MyCourier. All rights reserved </p>
+                    <p> &copy; 2025 BoostaSauce. All rights reserved </p>
                 </section>
             </article>
         </>
