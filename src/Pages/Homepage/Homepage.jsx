@@ -70,13 +70,13 @@ const Homepage = () => {
                         <img src={saBoxesImage} alt="Boxes on SA"/>
                     </div>
                     <div className="information-section">
-                        <Subtitle2 title={"Nationwide Coverage"}/>
+                        <Subtitle2 title={"Provincial Coverage"}/>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, id porttitor maecenas 
-                            amet. Mattis quisque facilisi duis tellus lacus vitae. Malesuada nibh libero eget elementum 
-                            in nec. Lorem auctor amet tristique est porttitor integer at. Risus massa id consectetur diam. 
-                            Commodo nec, in tellus faucibus ornare elit bibendum risus lacinia. Ultrices porttitor sem 
-                            ultricies amet. 
+                            Our strength lies in knowing Gauteng inside and out. From Johannesburg to Pretoria and everywhere in between, Boosta Sauce is built to move your deliveries quickly and reliably across the province.
+
+                            We understand the traffic, the routes and the pace of Gauteng life. That local knowledge allows us to provide faster turnarounds and a service you can count on, no matter where in the province you need your package to go.
+
+                            With Boosta Sauce, your deliveries stay close to home — handled by a team that knows Gauteng best. 
                         </p>
                     </div>
                 </section>
