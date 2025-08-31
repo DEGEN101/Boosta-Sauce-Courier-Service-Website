@@ -28,11 +28,9 @@ const Homepage = () => {
                     <div className="information-section">
                         <Subtitle2 title={"Who We Are"}/>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, id porttitor maecenas 
-                            amet. Mattis quisque facilisi duis tellus lacus vitae. Malesuada nibh libero eget elementum 
-                            in nec. Lorem auctor amet tristique est porttitor integer at. Risus massa id consectetur diam. 
-                            Commodo nec, in tellus faucibus ornare elit bibendum risus lacinia. Ultrices porttitor sem 
-                            ultricies amet. 
+                            At Boosta Sauce, we are all about speed, reliability and that extra boost of convenience. Our priority is simple: making sure your deliveries get to where they need to be quickly, safely and without any hassle.
+
+                            We began with a simple idea. Deliveries should not be stressful. Whether it is an urgent parcel, important business documents or everyday items, you deserve a service that is dependable, transparent and run by people who care.
                         </p>
                     </div>
                 </section>
@@ -45,11 +43,7 @@ const Homepage = () => {
                     <div className="information-section">
                         <Subtitle2 title={"Handled with Care"} reverse={true}/>
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum, id porttitor maecenas 
-                            amet. Mattis quisque facilisi duis tellus lacus vitae. Malesuada nibh libero eget elementum 
-                            in nec. Lorem auctor amet tristique est porttitor integer at. Risus massa id consectetur diam. 
-                            Commodo nec, in tellus faucibus ornare elit bibendum risus lacinia. Ultrices porttitor sem 
-                            ultricies amet. 
+                           
                         </p>
                     </div>
                 </section>
