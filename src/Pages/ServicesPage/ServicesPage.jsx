@@ -88,7 +88,7 @@ const ServicesPage = () => {
                         <SubSubTitle icon={starIcon} title={"Why Choose Us"}/>
                         <ul>
                             <li> <p><b>Gauteng-Focused:</b> We know your streets, your timetables, and your needs. </p></li>
-                            <li> <p><b>Courier Branding:</b> Every delivery is done in a trusted MyCourier uniform and vehicle. </p></li>
+                            <li> <p><b>Courier Branding:</b> Every delivery is done in a trusted Boosta Sauce uniform and vehicle. </p></li>
                             <li> <p><b>Personal Support:</b> Get trustworthy, one-on-one assistance with every delivery. </p></li>
                         </ul>
                     </section>
