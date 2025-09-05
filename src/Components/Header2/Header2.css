@@ -9,13 +9,28 @@
 
 /* Logo stays left */
 .header2-container .logo-section {
+    margin-block: var(--margin-m);
+    margin-inline-start: var(--margin-xl);
+
     display: flex;
     align-items: flex-start;
-    padding: 1rem 2rem;
 }
 
 .header2-container .logo-section img {
-    width: calc(var(--margin-xxl) * 5);
+    max-width: calc(var(--margin-xxl) * 7);
+}
+
+@media (max-width: 60em) {
+    .header2-container .logo-section img {
+        margin-inline-start: 0px;
+        max-width: calc(var(--margin-xxl) * 5.5);
+    }
+}
+
+@media (max-width: 40em) {
+    .header2-container .logo-section img {
+        max-width: calc(var(--margin-xxl) * 5);
+    }
 }
 
 /* SVG container on the right */
