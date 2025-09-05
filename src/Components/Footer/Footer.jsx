@@ -11,7 +11,7 @@ const Footer = () => {
             <article className="footer-container">
                 <section className="footer-main">
                     <section className="logo-section">
-                        <h1> Boosta Sauce Logistics </h1>
+                        <h1>Boosta Sauce (Pty) Ltd</h1>
                         <p> 
                             You can never stop with one.
                         </p>
@@ -43,7 +43,9 @@ const Footer = () => {
                             </li>
                             <li className="contact-item">
                                 <img src={emailIcon} alt="Icon of email" className="footer-icon" />
-                                <p> boostasauce@outlook.com </p>
+                                <a href="mailto:info@boostasauce.co.za" className="email-link">
+                                    info@boostasauce.co.za
+                                </a>
                             </li>
                         </ul>
                     </section>
@@ -53,14 +55,14 @@ const Footer = () => {
                         <ul>
                             <li className="contact-item">
                                 <img src={whatsappIcon} alt="Icon of WhatsApp logo" className="footer-icon" />
-                                <a href=" https://wa.me/+27676953702" className="social-media-link">WhatsApp</a> 
+                                <a href=" https://wa.me/+27676953702">WhatsApp</a> 
                             </li>
                         </ul>
                     </section>
                 </section>
 
                 <section className="copyright-section">
-                    <p> &copy; 2025 BoostaSauce. All rights reserved </p>
+                    <p> &copy; 2025 BoostaSauce (Pty) Ltd. All rights reserved. </p>
                 </section>
             </article>
         </>
