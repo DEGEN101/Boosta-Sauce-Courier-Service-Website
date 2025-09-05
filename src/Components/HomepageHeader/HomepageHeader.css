@@ -22,7 +22,21 @@
 }
 
 .left-sub-section .logo-section img {
-  width: calc(var(--margin-xxl) * 5);
+  margin-block-start: var(--margin-s);
+  width: calc(var(--margin-xxl) * 7);
+}
+
+
+@media (max-width: 60em) {
+    .left-sub-section .logo-section img {
+      width: calc(var(--margin-xxl) * 5.5);
+    }
+}
+
+@media (max-width: 40em) {
+    .left-sub-section .logo-section img {
+      width: calc(var(--margin-xxl) * 5);
+    }
 }
 
 .left-sub-section .moto-section {
@@ -190,6 +204,11 @@
   }
   .header-container .circles .circle-3 {
     top: 80%;
+  }
+
+  .right-sub-section .header-navigation {
+    left: 80%;
+    min-width: 15em;
   }
 }
 
