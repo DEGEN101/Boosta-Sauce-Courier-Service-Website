@@ -1,8 +1,10 @@
+import { useNavigate } from "react-router-dom";
 
 import HomepageHeader from "../../Components/HomepageHeader/HomepageHeader";
 import Subtitle from "../../Components/Subtitle/Subtitle";
 import Subtitle2 from "../../Components/Subtitle2/Subtitle2";
 import ServicesCard from "../../Components/ServicesCard/ServicesCard";
+import Button from "../../Components/Button/Button";
 import Footer from "../../Components/Footer/Footer";
 
 import deliveryTruckIcon from "../../Assets/Icons/delivery-truck-svgrepo-com.svg";
@@ -15,6 +17,12 @@ import "./Homepage.css"
 
 
 const Homepage = () => {
+    const navigate = useNavigate();
+
+    const handleContactUsButtonClick = () => {
+        navigate("/contact");
+    };
+
     return (
         <>
             <HomepageHeader />
@@ -78,6 +86,7 @@ const Homepage = () => {
 
                             With Boosta Sauce, your deliveries stay close to home — handled by a team that knows Gauteng best. 
                         </p>
+                        <Button title="Contact Us" onClick={handleContactUsButtonClick} />
                     </div>
                 </section>
             </section>

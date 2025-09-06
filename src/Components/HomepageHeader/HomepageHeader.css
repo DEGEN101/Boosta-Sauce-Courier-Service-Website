@@ -133,18 +133,19 @@
 
 /* ========== NAVIGATION (DESKTOP) ========== */
 .right-sub-section .header-navigation {
-  width: 20vw;
+  width: 25vw;
   min-width: 18em;
 
   position: absolute;
-  top: 8%;
-  left: 85%;
+  top: 5.55%;
+  left: 80.25%;
   transform: translate(-50%, -50%);
   z-index: 10;
 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+
   list-style: none;
 }
 
@@ -207,7 +208,6 @@
   }
 
   .right-sub-section .header-navigation {
-    left: 80%;
     min-width: 15em;
   }
 }
