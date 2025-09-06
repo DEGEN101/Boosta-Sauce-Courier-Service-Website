@@ -70,6 +70,10 @@
  
 }
 
+.field .error {
+  color: red;
+}
+
 .send-btn {
   display: block;
   margin: 30px auto 0; /* <-- increased top margin */
