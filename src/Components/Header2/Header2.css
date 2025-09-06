@@ -56,7 +56,7 @@
 
 /* Desktop: navigation centered on top of SVG */
 .header2-container .header2-navigation {
-    width: 40%;
+    width: 25vw;
     min-width: 18em;
 
     position: absolute;
@@ -74,7 +74,7 @@
 
 @media (max-width: 60em) {
     .header2-container .header2-navigation {
-        gap: var(--margin-l);
+        min-width: 15em;
     }
 }
 
